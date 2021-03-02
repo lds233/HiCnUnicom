@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: 55 18,23 * * ?
+    - cron: 00 19,23 * * ?
   watch:
     types: started
     
